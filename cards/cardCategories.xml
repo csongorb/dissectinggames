@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<cardCategories>
+
+	<cardCategory color="f44141">
+		<title>Game Design</title>
+	</cardCategory>
+
+	<cardCategory color="ca41f4">
+		<title>Art</title>
+	</cardCategory>
+
+	<cardCategory color="46845d">
+		<title>Programming</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="5B0632">
+		<title>Audio</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="8c9b00">
+		<title>Business</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="414cf4">
+		<title>Narrative</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="b2652e">
+		<title>Culture</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="1ca821">
+		<title>Media Studies</title>
+	</cardCategory>
+
+	<cardCategory row="1" color="5C6E82">
+		<title>Development</title>
+	</cardCategory>
+
+	<cardCategory row="2" color="208278" onlyBorder="true">
+		<title>Tasks</title>
+	</cardCategory>
+
+	<cardCategory row="2" color="f441a0" onlyBorder="true">
+		<title>Questions</title>
+	</cardCategory>
+
+	<cardCategory row="3" color="960f0f">
+		<title>Examples</title>
+	</cardCategory>
+
+</cardCategories>

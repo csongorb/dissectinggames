@@ -1,0 +1,1403 @@
+<?xml version="1.0"?>
+
+<!-- ================================== -->
+<!-- Instructions -->
+<!-- ================================== -->
+
+<!-- General -->
+<!-- - change "&" to "&#x26;" -->
+<!-- - change "'" to "%27" -->
+
+<!-- XML-Child: Title -->
+<!-- - line break: "/" -->
+<!-- - filenames are generated through the first line of the title -->
+<!-- 	- filenames must be unique! -->
+<!-- 	- use the attribute "forcedFilename" to define unique filenames! -->
+
+<cards>
+
+	<!-- ================================== -->
+	<!-- Game Design -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title>Level Design</title>
+		<text>Environment Design / Level vs. Game Design / Layout / Navigation / Modding</text>
+		<link>https://www.johnsto.co.uk/design/making-dust2/</link>
+		<link>https://web.archive.org/web/20230606223520/http://mappingbase.de/threads/40-2-Source-SDK-und-HammerEditor-Download-und-Einrichtung</link>
+		<link>http://leveldesignporn.csongorb.com</link>
+		<link>https://www.mapcore.org/topic/3598-level-design-help-files/</link>
+		<link>http://www.johnsto.co.uk/design/common-sense/</link>
+		<link>http://www.rockpapershotgun.com/2011/12/23/level-with-me-level-with-me/</link>
+		<link>http://level-design.org/?page_id=638</link>
+		<link>http://www.reachingperfection.com/p/forge-lessons.html</link>
+		<link>http://gropingtheelephant.com/blog/?p=2310</link>
+		<link>http://vectorpoem.com/news/?p=74</link>
+		<link>http://www.critical-distance.com/2013/10/02/the-art-of-level-design-analysis/</link>
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=level-design</link>
+		<link>https://www.wikiwand.com/en/Level_design</link>
+		<link>https://www.gamedeveloper.com/design/where-s-the-design-in-level-design-part-one-</link>
+		<link>https://www.gamedeveloper.com/design/where-s-the-design-in-level-design-part-two-</link>
+		<link>https://www.youtube.com/watch?v=ygp4-kmjpzI</link> <!-- "Devs Play" S01E05 - Doom -->
+	</card>
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title>Experience</title>
+		<text>Efficiency / Skills / Psychology / Fun / Motivation</text>
+		<link>http://askagamedev.tumblr.com/post/76972636953/game-development-myths-players-want-smart</link>
+		<link>https://www.gamedeveloper.com/design/game-design-patterns-for-building-friendships</link>
+		<link>https://www.gamedeveloper.com/design/designing-for-motivation</link>
+		<link>https://www-archiv.fdm.uni-hamburg.de/lhn/node/84.html</link>
+		<link>http://www.davidbordwell.net/articles/Bordwell_Iris_no9_spring1989_11.pdf</link>
+		<link>https://www.gamedeveloper.com/design/street-fighter-is-one-of-the-greatest-story-telling-games</link>
+		<link>https://www.gamedeveloper.com/design/from-mda-to-dde</link>
+	</card>
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title>Mechanics</title>
+		<text>System Design / Balancing / Feedback</text>
+		<link>https://ithrivegames.org/newsroom/psychology-game-design-one-possible-future-path/</link>
+		<link>https://www.gamedeveloper.com/design/different-kinds-of-difficulty-continuous-and-aspirational</link>
+		<link>https://www.gamedeveloper.com/design/the-balance-of-power-progression-and-equilibrium-in-real-time-strategy-games</link>
+		<link>https://remptongames.wordpress.com/2017/07/20/a-re-source-of-pride-designing-resource-systems-in-collectible-games/</link>
+		<link>http://www.psychologyofgames.com/2017/12/using-psychology-to-design-leveling-systems/</link>
+		<link>https://www.gamedeveloper.com/design/on-incoherent-game-systems</link>
+		<link>http://algorithmancy.8kindsoffun.com/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title>Dynamics</title>
+		<text>Progression vs. Emergence / Trends / Social Dynamics</text>
+		<link>http://www.gdcvault.com/play/1014555/Social-Mechanics-for-Social-Games</link>
+		<link>https://www.jesperjuul.net/text/openandtheclosed.html</link>
+		<link>https://www.cs.northwestern.edu/~hunicke/MDA.pdf</link>
+		<link>http://emergenceandgamedesign.tumblr.com/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>
+		<title>Game Design/as Gardening</title>
+		<text>Logic vs. Data / Growth / Tools / Finishing</text>
+		<link>http://www.jordanmechner.com/backstage/journals/</link>
+		<link>http://devolution.online</link>
+		<link>http://www.rockpapershotgun.com/2015/02/13/peter-molyneux-interview-godus-reputation-kickstarter/</link>
+		<link>https://twitter.com/devolutionbln</link>
+		<link>https://www.unseen64.net/</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Game Art -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>Concept Art</title>
+		<text>Environment Design / Character Design / Empathy</text>
+		<!-- <link>https://www.gamecareerguide.com/features/1638/how_to_be_a_smart_.php?page=1</link> -->
+		<link>http://www.creativeuncut.com/game-art-galleries.html</link>
+		<link>https://nexus.leagueoflegends.com/en-us/2016/10/dev-on-story-hooks/</link>
+		<link>http://conceptartworld.com/</link>
+		<link>https://www.gameindustrycareerguide.com/how-to-become-a-video-game-concept-artist/</link>
+		<link>https://www.gamedeveloper.com/production/video-how-color-defined-the-visual-rules-of-shangri-la-in-i-far-cry-4-i-</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>2D</title>
+		<text>Animation / Content Creation / Pixel Art</text>
+		<link>https://www.gamedeveloper.com/art/5-tips-for-making-great-animations-for-2d-games</link>
+		<link>https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/</link>
+		<link>https://marionettestudio.com/how-should-i-start-learning-2d-game-animations/</link>
+		<link>http://www.dpadstudio.com/Blog/postHibit.html</link>
+		<link>http://www.pixelprospector.com/the-big-list-of-drawing-and--animation/</link>
+		<link>https://www.instagram.com/p/BgQaXrpF5pM/?igref=ogexp</link>
+		<link>http://randomnerds.com/learn-to-draw-cartoons-with-the-now-public-domain-famous-artist-cartoon-course-textbook</link>
+		<link>https://www.adobe.com/de/products/photoshop/brushes.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>3D</title>
+		<text>Modeling / Texturing / Rigging / Animation / Environment</text>
+		<!-- <link>http://howtostartanimation.blogspot.de/p/how-to-start-animation.html</link>-->
+		<link>https://en.wikipedia.org/wiki/Procedural_animation</link>
+		<link>https://www.animationarena.com/introduction-to-3d-modeling.html</link>
+		<link>https://www.sidefx.com/products/houdini-fx/</link>
+		<link>https://www.alanzucconi.com/2017/04/17/procedural-animations/</link>
+		<link>https://www.digitalartsonline.co.uk/features/hacking-maker/7-incredible-tools-that-let-you-paint-sculpt-in-vr/</link>
+		<link>https://medium.com/volumetric-filmmaking/the-brief-history-of-volumetric-filmmaking-32b3569c6831</link>
+		<link>http://www.theastronauts.com/2014/03/visual-revolution-vanishing-ethan-carter/</link>
+		<link>https://www.youtube.com/watch?v=U_WaqCBp9zo</link> <!-- YouTube: Star Wars: Battlefront and the Art of Photogrammetry -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>Interface Design</title>
+		<text>Interaction Design / Utility / UI / UX / Affordance</text>
+		<link>http://bokardo.com/principles-of-user-interface-design/#:~:text=To%20be%20effective%20using%20an,then%20successfully%20interact%20with%20it.</link>
+		<link>http://en.wikipedia.org/wiki/Affordance</link>
+		<link>https://www.youtube.com/watch?v=mPD5dUBFsps</link> <!-- Intro to UX Design - User Experience and You - Extra Credits -->
+		<link>https://www.gdcvault.com/play/1023460/Tenacious-Design-and-The-Interface</link>
+		<link>http://gameaccessibilityguidelines.com/</link>
+		<link>https://www.youtube.com/playlist?list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl</link> <!-- Don Norman - Principles of Design -->
+		<link>https://www.youtube.com/watch?v=QCSXEKHL6fc</link> <!-- Extra Credits: Affordances -->
+		<link>https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design</link>
+		<link>https://en.wikipedia.org/wiki/Interface_metaphor</link>
+		<link>https://www.wired.com/2010/12/1209computer-mouse-mother-of-all-demos/</link>
+		<link>https://www.youtube.com/watch?v=axkPXCNjOh8</link> <!-- https://www.youtube.com/watch?v=axkPXCNjOh8 -->
+		<link>https://www.youtube.com/watch?v=CCaM7yTFymo&amp;index=33&amp;list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl</link> <!-- Conceptual Model (Udacity) -->
+		<link>https://www.gamedeveloper.com/design/game-design-and-gestalt-laws</link>
+		<link>https://www.gamedeveloper.com/design/game-ui-discoveries-what-players-want</link>
+		<link>https://en.wikipedia.org/wiki/Usability_testing</link>
+		<link>https://www.youtube.com/watch?v=k70_jvVOcG0</link> <!-- Why Natan Drake Doesn't Need Compass? -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>Technical Art</title>
+		<text>Lighting / Effects / Rendering / Post Processing</text>
+		<link>https://unity3d.com/de/learn/tutorials/topics/graphics/introduction-lighting-and-rendering</link>
+		<link>https://docs.unity3d.com/Manual/PostProcessingOverview.html</link>
+		<link>http://blog.kenperlin.com/?m=201801</link> <!-- GC programming for non programmers -->
+		<link>https://www.gamedeveloper.com/programming/how-to-choose-between-forward-or-deferred-rendering-paths-in-unity</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>Art Direction</title>
+		<text>Vision / Look Development / Theming</text>
+		<link>http://clicknothing.typepad.com/click_nothing/2007/10/ludonarrative-d.html</link>
+		<link>https://www.gamedeveloper.com/design/affordance-design-in-half-life-2</link>
+		<link>https://www.gamedeveloper.com/design/practical-examples-for-marrying-theme-and-meaning</link>
+		<link>http://www.designer-notes.com/?p=240</link>
+		<link>http://tvtropes.org/pmwiki/pmwiki.php/Main/InsurmountableWaistHeightFence</link>
+		<link>http://www.rockpapershotgun.com/2009/04/21/locked-door/</link>
+		<link>https://de.scribd.com/document/357170080/Headlander-Art-Direction-Document</link>
+		<link>http://lpc.opengameart.org/static/lpc-style-guide/styleguide.html</link>
+		<link>https://80.lv/articles/the-rendering-of-inside-low-complexity-high-fidelity/</link>
+		<link>https://www.gdcvault.com/play/1022983/Art-Direction-Graphic-Design-is</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Programming -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="deploymentandtesting">Deployment/&#x26; Testing</title>
+		<text>Pipelines / Plattforms / Methodologies</text>
+		<link>https://en.wikipedia.org/wiki/Software_deployment</link>
+		<link>https://en.wikipedia.org/wiki/Software_testing</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="computerscience">Computer/Science</title>
+		<text>Paradigms / Architecture / Modularity / Digitality</text>
+		<link>https://en.wikipedia.org/wiki/Computer_science</link>
+		<link>https://msdn.microsoft.com/en-us/library/ff921069(v=pandp.20).aspx</link> <!-- Modularity -->
+		<link>https://en.wikipedia.org/wiki/Programming_paradigm</link>
+		<link>https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw</link> <!-- The Coding Train -->
+		<link>https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach</link>
+		<link>https://www.youtube.com/watch?v=1e5WY2qf600&#38;t=8s</link> <!-- Unite Europe 2017: Performance optimization for beginners -->
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="logicprogramming">Logic/Programming</title>
+		<text>Gameplay Programming / Prototyping / Scripting / Tool Design</text>
+		<link>https://en.wikipedia.org/wiki/Logic_programming</link>
+		<link>https://gamedev.stackexchange.com/questions/24482/what-is-a-gameplay-programmer</link>
+		<link>https://www.combit.net/kundenmanagement-software/service/address-manager-bis-version-16-knowledgebase/knowledgebase/automatisierung-scripting/allgemeine-einfuehrung-in-scripting-was-ist-ein-s/</link>
+		<link>https://gamedev.stackexchange.com/questions/24482/what-is-a-gameplay-programmer</link>
+		<link>https://www.gamedeveloper.com/programming/how-i-started-programming-part-one-of-two-</link>
+		<link>https://www.youtube.com/watch?v=ISutk1mauPM</link>   <!-- Jonathan Blow: Indie Prototyping -->
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="graphicprogramming">Graphic/Programming</title>
+		<text>Tool Design / Rendering / Effects</text>
+		<link>https://www.reddit.com/r/GraphicsProgramming/</link>
+		<link>https://web.archive.org/web/20201108124957/http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming</link>
+		<link>https://www.youtube.com/watch?v=W_okgL6HJX8</link> <!-- Tech Toolbox for Game Programmers -->
+		<link>https://web.archive.org/web/20220125074237/https://www.scratchapixel.com/lessons/3d-basic-rendering/get-started</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="enginesandlanguages">Engines &#x26;/Languages</title>
+		<text>Engine Architecture / Logic vs. Data / Tools / Modding</text>
+		<link>http://gameenginebook.com/</link>
+		<link>https://www.youtube.com/watch?v=yTRzfKh4Tg0</link> <!-- 3D Rendering with Binary Space Partitions -->
+		<link>https://de.wikipedia.org/wiki/Spiel-Engine</link>
+		<link>https://web.archive.org/web/20160916133646/http://iq.intel.de:80/game-engines-die-10-bekanntesten-frameworks-hinter-vr-games/?_topic=gaming</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="patternsandalgorithms">Patterns &#x26;/Algorithms</title>
+		<text>AI / Procedural Generation / Pattern Recognition</text>
+		<link>https://www.theverge.com/2017/10/18/16495548/deepmind-ai-go-alphago-zero-self-taught</link>
+		<link>https://en.wikipedia.org/wiki/Machine_learning</link>
+		<link>https://www.youtube.com/watch?v=TgbuWfGeG2o</link> <!-- Procedural Generation - How Games Create Infinite Worlds - Extra Credits -->
+		<link>https://www.gdcvault.com/play/1024514/Building-Worlds-Using</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Sound & Music -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="ambientsound">Ambient/Sounds</title>
+		<text>Resonance / Pace / Atmosphere</text>
+		<link>https://games.ambient-mixer.com/</link>
+		<link>https://www.adsrsounds.com/ni-massive-tutorials/ambient-sound-design-for-ni-massive/</link>
+		<link>https://www.musicradar.com/tuition/tech/27-essential-ambient-production-tips-166772</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>Music</title>
+		<text>Composing / Tunes / Melody</text>
+		<link>https://web.archive.org/web/20171018130426/https://www.wikihow.com/Make-Video-Game-Music</link>
+		<link>https://midnightmusic.com.au/2016/06/the-guide-to-composing-music-for-video-games/</link>
+		<link>https://www.gameskinny.com/wcw78/how-to-make-video-game-music-your-first-steps</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>Sound Effects</title>
+		<text>Atmosphere / Feedback / Tools</text>
+		<link>https://web.archive.org/web/20180126172840/http://jessefreeman.com/game-dev/intro-to-making-sound-effects-for-games/</link>
+		<link>https://www.bfxr.net/</link>
+		<link>https://sfbgames.itch.io/chiptone</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="adaptivemusic">Adaptive/Music</title>
+		<text>Interaction / Implementation</text>
+		<link>https://en.wikipedia.org/wiki/Adaptive_music</link>
+		<link>https://www.gamedeveloper.com/audio/defining-adaptive-music</link>
+		<link>https://web.archive.org/web/20200203181529/http://melodrive.com/blog/8-outstanding-adaptive-music-soundtracks/</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Business -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="financingandfunding">Financing &#x26;/Funding</title>
+		<text>Monetization / Digitalization / Culture vs. Technology / Accounting</text>
+		<link>https://en.wikipedia.org/wiki/Video_game_monetization</link>
+		<link>https://web.archive.org/web/20201030170528/https://entwickler.de/online/webmagazin/monetarisierung-von-games-4611.html</link>
+		<link>https://www.gamedeveloper.com/business/understanding-the-realities-of-video-game-monetization</link>
+		<link>https://blog.thimbleweedpark.com/final_dev_post.html</link>
+		<link>https://www.patreon.com</link>
+		<link>https://digitalwellbeing.org/the-10-business-models-of-digital-disruption-and-how-to-respond-to-them/</link>
+		<link>https://www.bondcap.com/report/it19/#internettrends</link> <!-- Mary Meeker: Internet Trend Reports -->
+		<link>http://www.medienboard.de/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>Marketing</title>
+		<text>Public Relations / Localisation / Launch / Hype</text>
+		<link>https://www.theverge.com/2017/12/19/16783136/loot-boxes-video-games-gambling-legal</link>
+		<link>https://www.gamedeveloper.com/business/how-marketing-drives-engagement-in-free-to-play-games</link>
+		<link>https://www.gamedeveloper.com/business/how-to-build-your-marketing-system</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="startupsentrepreneurship">Start Ups &#x26;/Entrepreneur-/ship</title>
+		<text>Teambuilding / Licensing / Business Model / Business Development</text>
+		<link>https://en.wikipedia.org/wiki/Business_Model_Canvas</link>
+		<link>https://www.gamedeveloper.com/business/get-business-tips-from-game-investor-jason-della-rocca-today-at-3pm-est</link>
+		<link>https://creativecommons.org/about/downloads/</link>
+		<link>https://www.wirelesspowerconsortium.com/knowledge-base/patents-and-trademarks/trademark-licenses/</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Narrative Design -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>World Building</title>
+		<text>World Design / Transmedia / Diegesis</text>
+		<!-- <link>http://www.thewritersjourney.com/hero%27s_journey.htm</link> -->
+		<link>https://www.wikiwand.com/en/Monomyth</link>
+		<link>http://guyhasson.wordpress.com/2011/06/20/story-design-tips-5-articles-about-world-building/</link>
+		<link>http://en.wikipedia.org/wiki/Worldbuilding</link>
+		<link>http://en.wikipedia.org/wiki/Bible_%28writing%29</link>
+		<link>https://web.archive.org/web/20171211204303/http://rjblain.com/2013/01/creating-a-story-bible-the-basics/</link>
+		<link>https://web.archive.org/web/20121102131152/http://www.joergihle.de/storyworlds.html</link>
+		<link>http://darrellhardy.com/blog/2013/03/12/storyworld-architecture-101/</link>
+		<link>http://www.amazon.de/Building-Imaginary-Worlds-History-Subcreation/dp/0415631203</link>
+		<link>http://en.wikipedia.org/wiki/Fictional_universe</link>
+		<link>https://prezi.com/_mtgi7uv_49c/storyworlds_160204/</link>
+		<link>https://www.wired.com/2008/08/ff-starwarscanon/</link>
+		<link>https://web.archive.org/web/20140330073305/http://ifbook.pressbooks.com/chapter/do-you-have-a-big-stick/</link>
+		<link>http://en.wikipedia.org/wiki/The_History_of_Middle-earth</link>
+		<link>http://en.wikipedia.org/wiki/Retroactive_continuity</link>
+		<link>https://www.youtube.com/watch?v=VUm0Lo6DL-E</link> <!-- The Star Wars Expanded Universe: Past, Present, and Future -->
+		<link>http://starwars.wikia.com/wiki/Canon</link>
+	</card>
+
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title forcedFilename="narrativedesign">Narrative/Design</title>
+		<text>Game Design / System Design / Simulations / Game Writing</text>
+		<link>http://narrativedesignporn.csongorb.com</link>
+		<link>http://eblong.com/zarf/essays/rule-based-if/</link>
+		<link>https://web.archive.org/web/20160417114038/http://digitalnarratives.filmschule.de/post/116989307186/writingliteratur</link>
+		<link>https://www.youtube.com/watch?v=22HoViH4vOU</link> <!-- Extra Credits: How to start your game narrative? -->
+		<link>https://web.archive.org/web/20190305130252/http://narrativedesign.org/2009/09/what-is-interactive-narrative-design/</link>
+		<link>https://www.tumblr.com/dgaiderarchive/108861967367/on-narrative-design</link>
+		<link>https://web.archive.org/web/20160718170502/http://www.gamnesia.com/articles/narrative-design-in-video-games</link>
+		<link>https://web.archive.org/web/20180226160821/http://narrativedesign.org/2011/09/what-is-a-narrative-designer-3/</link>
+		<link>http://www.bardinelli.com/?p=3111</link>
+		<link>https://www.gamedeveloper.com/design/designing-user-stories---interactive-narrative-design</link>
+		<link>https://www.gamedeveloper.com/design/open-sourcing-80-days-narrative-scripting-language-ink</link>
+		<link>http://gdcvault.com/play/1023221/Ink-The-Narrative-Scripting-Language</link>
+	</card>
+
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title>Game Writing</title>
+		<text>Scripting / Level Design / Dialogue</text>
+		<link>http://www.igda.org/group/game-writing</link>
+		<link>https://www.youtube.com/watch?v=KG1ziCvLkJ0</link> <!-- Extra Credits: Bad Writing -->
+		<link>https://web.archive.org/web/20160417114038/http://digitalnarratives.filmschule.de/post/116989307186/writingliteratur</link>
+		<link>https://www.gamedeveloper.com/design/writing-i-firewatch-i-and-capturing-the-beauty-of-being-alone</link>
+		<link>https://www.gamedeveloper.com/design/the-gamasutra-20-top-game-writers</link>
+		<link>https://www.youtube.com/watch?v=UswwuR4_I4E</link> <!-- Firewatch Writing Q&A with Sean Vanaman -->
+		<link>https://www.idlethumbs.net/tonecontrol/episodes/tom-bissell</link>
+	</card>
+
+	<card>
+		<cardCategoryId>5</cardCategoryId>
+		<title forcedFilename="classicalnarrativestructures">Classical/Narrative/Structures</title>
+		<text>Dramaturgy / Dramatic Structure / Epic Structure / Lyrical Structure</text>
+		<link>https://prezi.com/ft6rkcrtm2rx/die-3-verknupfungsarten/</link>
+		<link>http://www.textlog.de/5858.html</link> <!-- Hegel: Die dramatische Poesie -->
+		<link>https://www.wikiwand.com/de/Poetik_(Aristoteles)</link>
+		<link>http://www.textlog.de/5819.html</link> <!-- Hegel: Die epische Poesie -->
+		<link>https://www.wikiwand.com/de/Lyrik</link>
+		<link>http://www.textlog.de/5835.html</link> <!-- Hegel: Die lyrische Poesie -->
+		<link>https://prezi.com/ljhylzepqgjj/dramaturgie-als-prinzip/</link>
+		<link>http://www.amazon.de/Filmdramaturgie-Peter-Rabenalt/dp/3895812439</link>
+		<link>http://www.ray-magazin.at/magazin/2011/11/filmdramaturgie-plaedoyer-fuer-das-epische</link>
+		<link>http://www.amazon.de/Handbuch-Filmdramaturgie-Bauchgef-hl-Babelsberger-Mediendramaturgie/dp/3631618824</link>
+		<link>http://www.amazon.de/Handbuch-Angewandter-Dramaturgie-Babelsberger-Mediendramaturgie/dp/3631641389</link>
+		<link>https://www.goodreads.com/review/list/40472585-csongor-baranyai?shelf=dramaturgy</link>
+		<link>http://de.wikipedia.org/wiki/Analytisches_Drama</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Culture -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>Diversity</title>
+		<text>Inclusivity / Diversity</text>
+		<link>http://www.theguardian.com/culture/2015/nov/16/nina-freeman-punk-poet-game-designer-cibele-interview</link>
+		<!-- <link>http://sufficientlyhuman.com/archives/745</link>  Theorypunk: Get It While Supplies Last -->
+		<link>https://motherboard.vice.com/read/the-games-that-are-too-underground-to-be-indie</link>
+		<link>http://www.gdcvault.com/play/1018080/</link> <!-- #1reasontobe (GDC13) -->
+		<link>http://www.gdcvault.com/play/1020902/</link> <!-- #1reasontobe (GDCEurope14) -->
+		<link>http://gdcvault.com/play/1023214/The-Current-State-of-Muslim</link> <!-- #1reasontobe (GDC16) -->
+		<link>https://www.gdcvault.com/play/1024233/</link> <!-- #1reasontobe (GDC17) -->
+		<link>http://videogameninjas.tumblr.com/</link>
+		<link>https://www.youtube.com/watch?v=HQLW4VvVQC0</link> <!-- Nina Freeman @ Amaze 2015 -->
+		<link>https://en.wikipedia.org/wiki/Gamergate_controversy</link>
+		<link>https://www.gamedeveloper.com/business/-gamers-don-t-have-to-be-your-audience-gamers-are-over-</link>
+	</card>
+
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>Critique</title>
+		<text>Journalsism / Common Knowledge / Conventions</text>
+		<link>https://en.wikipedia.org/wiki/Critique</link>
+		<link>https://derstandard.at/1350261143943/Eine-Branche-im-Umbruch-Der-Gamesjournalismus-in-der-Krise</link>
+		<link>http://www.spiegel.de/netzwelt/games/videospiele-mehr-geist-bitte-liebe-games-tester-a-784531.html</link>
+		<link>http://www.testcard.de/titel/1647/testcard-25-kritik</link>
+		<link>https://de.wikipedia.org/wiki/Medienkritik</link>
+		<link>https://wasd-magazin.de/</link>
+		<link>http://www.critic.de/filmkritik/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>6</cardCategoryId>
+		<title>Sociology</title>
+		<text>Social Relationships / Studies / Behavior Science / Hype / Expectations / Esports</text>
+		<link>https://sociologyofvideogames.com/</link>
+		<!-- <link>https://nerdcore.de/2015/07/25/there-will-be-blood-wie-hate-speech-das-netz-veraendert/</link> -->
+		<link>https://netzpolitik.org/</link>
+		<link>https://media.ccc.de/</link>
+		<link>https://www.gamedeveloper.com/business/the-ceo-of-esports-team-splyce-explains-the-human-side-of-professional-play</link>
+		<link>https://en.wikipedia.org/wiki/Hype_cycle</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Media Studies -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>Media Studies</title>
+		<text>Digital Media / Academia</text>
+		<link>https://www.amazon.de/Einf%C3%BChrung-die-Medientheorie-Rainer-Leschke/dp/3825223868</link>
+		<link>https://en.wikipedia.org/wiki/What_Technology_Wants</link>
+		<link>https://www.transcript-verlag.de/978-3-89942-339-6/reader-neue-medien/</link>
+		<link>https://mitpress.mit.edu/books/racing-beam</link>
+	</card>
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>Game Studies</title>
+		<text>Ludology vs. Narratology / History / Future</text>
+		<link>http://www.transcript-verlag.de/978-3-8376-2982-8/games-game-design-game-studies/</link>
+		<link>http://gamestudies.org/</link>
+		<link>http://www.ludology.org/articles/ludology.htm</link>
+		<link>https://web.archive.org/web/20211201193100/http://gamecamp.berlin/</link>
+		<link>http://www.digra.org/</link>
+		<link>http://repository.cmu.edu/cgi/viewcontent.cgi?article=1032&#x26;context=etcpress</link>
+	</card>
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>History</title>
+		<text>Digitality / Media History / Genealogy</text>
+		<link>https://www.amazon.de/Replay-History-Video-Tristan-Donovan/dp/0956507204</link>
+		<link>https://www.amazon.de/-/en/Bill-Loguidice/dp/1138428515</link>
+	</card>
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title forcedFilename="effectsresearch">Effects/Research</title>
+		<text>Killerspiele / Psychology / Sociology</text>
+		<link>http://www.gameswelt.de/grand-theft-auto-v/special/seite-1,207117,1</link>
+		<link>https://web.archive.org/web/20220325180620/https://www.stigma-videospiele.de/</link>
+		<link>https://de.wikipedia.org/wiki/Medienwirkungsforschung</link>
+	</card>
+
+	<card>
+		<cardCategoryId>7</cardCategoryId>
+		<title>Hermeneutic</title>
+		<text>Meaning Production / Message Model</text>
+		<link>http://gamestudies.org/1103/articles/sicart_ap/</link>
+		<link>http://bogost.com/books/persuasive_games/</link>
+		<link>http://www.digra.org/digra-2018-the-game-is-the-message-cfp/</link>
+		<link>https://gamescriticism.org/2023/07/24/hermeneutics-and-ludocriticism/</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Development -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>8</cardCategoryId>
+		<title>Creative Producing</title>
+		<text>Production / Business Development</text>
+		<link>https://de.wikipedia.org/wiki/Creative_Producer</link>
+		<link>https://en.wikipedia.org/wiki/Cone_of_Uncertainty</link>
+		<link>https://en.wikipedia.org/wiki/The_Mythical_Man-Month</link>
+		<link>https://en.wikipedia.org/wiki/Project_management_triangle</link>
+		<link>https://www.amazon.de/Medienkompetenz-Projektmanagement-Medienentwicklung-Holger-Nathrath/dp/3589238291</link>
+		<link>https://www.gamedeveloper.com/game-platforms/team-building-exercises-with-dream-build-play</link>
+	</card>
+
+	<card>
+		<cardCategoryId>8</cardCategoryId>
+		<title forcedFilename="projectmanagement">Project/Management</title>
+		<text>Agile / Time-Management / Tools</text>
+		<link>http://agilemanifesto.org/</link>
+		<link>https://www.simplilearn.com/project-management-basic-principles-article</link>
+		<link>https://de.slideshare.net/tltiede/pmi-project-management-principles</link>
+		<link>https://www.lucidchart.com/blog/5-Universal-Project-Management-Principles</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Examples -->
+	<!-- ================================== -->
+
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title forcedFilename="thimbleweedpark">Thimbleweed/Park</title>
+		<text>Production / Gameplay / Design</text>
+		<link>https://blog.thimbleweedpark.com/</link>
+		<link>https://blog.thimbleweedpark.com/hints_and_dialogs.html</link>
+		<link>https://medium.com/@KonstantinosD/game-cities-the-urbanism-of-thimbleweed-park-a5b1b9c3debf</link>
+		<link>http://www.ign.com/articles/2017/02/10/thimbleweed-park-is-secretly-an-open-world-point-ana-click-game</link>
+		<link>http://store.steampowered.com/app/569860/Thimbleweed_Park/</link>
+		<link>https://www.gamedeveloper.com/business/q-a-i-maniac-mansion-i-creators-stick-to-their-roots-with-new-adventure-game</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Any Game</title>
+		<text>Production / Gameplay / Design</text>
+		<link>http://www.mobygames.com/random/game?</link>
+		<link>https://www.kickstarter.com/projects/2093152267/the-metagame-discuss/posts/668406</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Doom</title>
+		<text>Production / Gameplay / Design</text>
+		<link>https://zdoom.org</link> <!-- modern era doom -->
+		<link>http://slade.mancubus.net</link> <!-- level editor -->
+		<link>http://vectorpoem.com/doom/</link>
+		<link>https://en.wikipedia.org/wiki/Doom_WAD</link>
+		<link>https://en.wikipedia.org/wiki/Doom_(1993_video_game)</link>
+		<link>https://en.wikipedia.org/wiki/Development_of_Doom</link>
+		<link>https://en.wikipedia.org/wiki/Doom_engine</link>
+		<link>https://doomwiki.org/wiki/DoomEd</link>
+		<link>https://eev.ee/blog/2015/12/19/you-should-make-a-doom-level-part-1/</link>
+		<link>https://www.youtube.com/watch?v=ygp4-kmjpzI</link> <!-- "Devs Play" S01E05 - Doom (Part 1 - Intro) -->
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Portal</title>
+		<text>Production / Gameplay / Design</text>
+	 	<link>https://www.gamedeveloper.com/design/rewarding-the-players-valve-on-i-portal-2-i-</link>
+  		<link>https://www.gamedeveloper.com/design/synthesizing-i-portal-2-i-</link>
+	 	<link>http://www.rockpapershotgun.com/2013/09/20/untold-riches-an-analysis-of-portals-expressive-level-design/</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title forcedFilename="cuttherope">Cut/the Rope</title>
+		<text>Production / Gameplay / Design</text>
+		<link>http://cuttherope.wikia.com/wiki/Cardboard_Box</link>
+ 	  <link>http://twvideo01.ubm-us.net/o1/vault/gdc2012/slides/Design%20Track/Voinov_Semyon_Level_Design_Casestudies.pdf</link>
+ 	  <link>http://en.wikipedia.org/wiki/Cut_the_Rope</link>
+ 	  <link>https://web.archive.org/web/20220524111421/http://www.cuttheropefan.com/2011/07/changes-to-level-design-in-cut-rope.html</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Gone Home</title>
+		<text>Production / Gameplay / Design</text>
+		<link>texts/playandtalk_gonehome.pdf</link>
+		<link>http://www.youtube.com/watch?v=ILO-kzVEXj4</link> <!-- Gone Home: Making Stories with Steve Gaynor & Lucy Prebble -->
+		<link>http://eat-games.tumblr.com/post/74979301279/interview-steve-gaynor</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Spelunky</title>
+		<text>Production / Gameplay / Design</text>
+		<link>http://spelunkyworld.com/dailychallenge/</link>
+		<link>http://spelunky.wikia.com/wiki/Spelunky_Wiki</link>
+		<link>http://www.rockpapershotgun.com/2013/10/22/geometry-of-death-spelunkys-level-generation-explained/</link>
+		<link>https://www.gamedeveloper.com/design/a-spelunky-game-design-analysis---pt-2</link>
+		<link>https://www.gamedeveloper.com/design/the-understated-genius-of-the-i-spelunky-i-daily-challenge</link>
+		<link>https://web.archive.org/web/20160305182751/http://spelunkyexplorersclub.com/</link>
+		<link>https://www.gamedeveloper.com/design/explorer-gmk-an-excerpt-from-the-spelunky-book</link>
+		<link>https://www.youtube.com/watch?v=jv434Xyybqc</link> <!-- Spelunky - Noclip Documentary -->
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Uncharted 4</title>
+		<text>Production / Gameplay / Design</text>
+		<link>http://www.gamesindustry.biz/articles/2016-05-05-critical-consensus-uncharted-4-a-real-treasure</link>
+		<link>https://www.wikiwand.com/en/Uncharted_4:_A_Thief%27s_End</link>
+		<link>http://uncharted.wikia.com/wiki/Uncharted_4:_A_Thief%27s_End</link>
+		<link>https://www.youtube.com/watch?v=6rTn8sj24wA</link> <!-- The Making of Uncharted 4 -->
+		<link>https://web.archive.org/web/20180912195206/http://readyset.zam.com/article/539/the-pirate-republics-that-inspired-uncharted-4s-libertalia</link>
+		<link>https://kotaku.com/highlights-of-two-uncharted-4-levels-one-traditional-a-1775514454</link>
+		<link>https://www.gnomon.edu/blog/discover-naughty-dog-s-environment-art-workflow-for-uncharted-4</link>
+		<link>http://gamingbolt.com/uncharted-4s-open-level-design-impacts-its-gameplay-in-a-big-way</link>
+		<link>http://www.gamesindustry.biz/articles/2016-11-04-uncharted-4-not-as-scripted-as-you-might-think</link>
+		<link>https://kotaku.com/the-art-of-uncharted-4-1777213424</link>
+		<link>https://kotaku.com/uncharted-4s-climbing-reviewed-1775667916</link>
+		<link>https://kotaku.com/a-technical-look-at-what-makes-uncharted-4-so-pretty-1775588247</link>
+		<link>http://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/</link>
+	</card>
+	<card>
+		<cardCategoryId>11</cardCategoryId>
+		<title>Her Story</title>
+		<text>Production / Gameplay / Design</text>
+		<!-- <link>https://docs.google.com/document/d/16T28nnQB4vM6cXnj3zWQaN6E1vJgPtHWDkuFDXyF4zU</link> Play & Talk: Her Story - Further Readings -->
+		<link>http://gdcvault.com/play/1023430/Making-Her-Story-Telling-a</link>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Tasks -->
+	<!-- ================================== -->
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<text>Write a redesign approach for the UI without using any buttons</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>1</tag>
+		<tag>5</tag>
+		<text>Draw the entire game story on one paper</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>1</tag>
+		<text>Draw the entire game structure on one paper</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>4</tag>
+		<text>Write an elevator pitch</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>2</tag>
+		<text>Cut each mechanical system into categories and explain how you could code them</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>3</tag>
+		<text>Recreate one sound from scratch</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>10</tag>
+		<text>Write one sprint as the projectmanager at some point in development</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>1</tag>
+		<text>Sketch a character in a different style</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>2</tag>
+		<text>Cut each game system in pieces and rank them by difficulty</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>0</tag>
+		<text>Make a new level for the game</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>9</cardCategoryId>
+		<tag>0</tag>
+		<text>Write a level editor tutorial for the game</text>
+	</card>
+
+	<!-- ================================== -->
+	<!-- Questions -->
+	<!-- ================================== -->
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>6</tag>
+		<text>Which parameter in the current design should be manipulated to make it more immersiv?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>What is the essential drive that keeps me playing?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<text>Which features communicate the function clearly by their design?</text>
+	</card> -->
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does the design restrict the player in a way, that it breaks its own gameplay loop?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>Is there a system behind the scenes that manipulates the outcome or parameters?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<tag>7</tag>
+		<text>What is the lowest age to control this game and which component is responsible?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does a player feel generally satisfied with how their effort is rewarded?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<text>Is there something that the player can take into the real world by playing?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>What would be the best way to present this game to a publisher or a convention?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>How does the game change, when the player achives an expert status?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>What is the most common mistake a new player does, when getting into the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Are there any design decissions to enforce mistakes from the player?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>7</tag>
+		<text>What is the best possible way to teach this game?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which design decission has to be made to minimize the time from being completely new?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<tag>7</tag>
+		<text>Which social-subculture is this game part of and does this group has specific expectations?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<tag>7</tag>
+		<text>Are there any potential dangers playing this game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<tag>5</tag>
+		<text>In a detailed approach to each individual level, which attributes they have in common?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>How does the current map-layout influence the games pace?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>Do certain areas or levels have different kind of gameplay quality?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<tag>5</tag>
+		<text>Does the current level layout add more to a game than just providing the playspace?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>What kind of mistakes are still in the current level design, that could be fixed in a reasonable amount of time?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does the current level design create meaningful long and short-term goals?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Can a player move through the level with low cognitive input and if not is that a problem?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>Is the overall architecture of the levels coherent?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>Would the game improve, if the level design would be changed from linear to interconnected and vice versa?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>Which tool was used to create the levels and what design limitations were created by it?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>What would be the best approach to change the current level building process to a procedual one?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>Is the current camera perspective fitting the topology of each level?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>How did the approach of building levels for the game changed over the development?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>What kind of design tricks were used to hide re-using assets?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>How would a design document for the content of this game look like?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What environmental set-pieces stand out of the crowd and why?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>Does the game do something extraordinary with its content and what kind of learnings can be extracted from it?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>While studying the exact creation process of the assets which workflow element stands out?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>What mechanics is essential to keep the current gameplay loop running?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Is the current gameplay system self-sustaining or does it need extrinsic ressources to work?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which system elements can be summed up into groups and how are their relationships structured?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Were there any mayor system design flaws that got fixed during the development?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Where are rewards placed in the system to keep player motivation high?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which mechanical elements does the current system design use to keep track of player progression?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which gameplay component is introduced that the player is allowed to exploit to feel good?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Would the current game design benefit of any competetive spirit as a motivational drive?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>How does the current system determine a win-state and what flaws does this process have?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does the current game design fulfill the saying easy to learn hard to master?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>Are there interconnected mechanics that create an emergent outcome?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which is the mechanic that is the most fun to exectue as a player?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which mechanic creates extra layers of learning the longer the player plays?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does the gameplay use a recurring play-pattern, that the player enjoys more and more over the time?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>2</tag>
+		<text>What gameplay components are the most sandbox-like, so the player can entertain himself?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<text>What mechanics were cut from the current game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<text>Starting the project from scratch again, but the with current knowledge, how would you rewrite the production pipeline?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Which design decisions limited the design space the most?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<text>How could you optimize the most work-intensiv elements as a game designer?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>4</tag>
+		<text>What elements does a prototype need to serve as the base for the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>7</tag>
+		<text>How does the game inform a player about a unwanted or wrong behavior and what emotional response does it create?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Is the player conditioned to do certain tasks in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Is the win-condition used to optimize gameplay processes and what which patterns does the player learn from these?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Can the game manipulate how the player approaches a problem?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Is there any respect to loss aversion in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>What informations are activly hidden from the player to improve the overall experience?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>Does the player think that he has enough visible information or are there crutial onces missing?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Are there elements that only work if the player has a certain understanding of the games inner working?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Does the player always know what his goal is and if not is it part of the experience?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<text>Are puzzles or problems usually solved via the same though process and input sequences?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<tag>4</tag>
+		<text>Which is the most important characteristic the player needs to get the most out of the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<tag>4</tag>
+		<text>Can the game make the player feel smart?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>Does the current user interface provide vital information for the player?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>What is the main responsiblitly of the user interface to improve the gameplay experience?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>Would there be a better interface design from a corresponding genre game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>Does the interface feel natural and what elements are responsible for this?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>Does the currently used animation style and locomotion fit the gameplay purpose?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>0</tag>
+		<tag>1</tag>
+		<text>Are the current animations communicating each characters attitude well?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>What post-processing effects have been used in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<tag>2</tag>
+		<text>What job do shaders fulfill in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What kind of writing rules does the code have?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What is the most perfomance heavy task in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>Are their any interessting conventions used in the code?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>On which modular systems is the game build upon?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>Was there any canceled feature due to technical issues?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<tag>4</tag>
+		<text>How did the team split coding tasks?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>Which instruments are used for the soundtrack?</text>
+	</card> -->
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>At which beats per minute is the soundtrack recorded?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>At which point is music used in the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>Are there game elements that are exclusivly explained by sound?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>Which sound effects are used in the game?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>Does the music in the game follow harmony theory?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>In which languages and countries was the game shipped?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>How was the game localized?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>How often did the game sell?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>Do the current meta-scores represent the game well?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>Was there any difficult time period during development so the release date got delayed?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>What kind of project management methodology did the game use?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>How big was the staff?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>Were their any fundings for the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>Was the game marketeded to the target age group properly?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>4</tag>
+		<text>What is the target audience of the game and what are their expectations?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>5</tag>
+		<text>How does the player explore the story?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>6</tag>
+		<text>How did the game presented itself to the public?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>7</tag>
+		<text>What kind of society ideals are reflected by the game?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>7</tag>
+		<text>Does the story use its medial attributes well or would it work better in a different medium?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>Is the art direction clear enough, so that one picture could showcase the game?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>1</tag>
+		<text>Are textures distinct enough to support the visual quality?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>How is the code strucutred?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What class strucutre was used?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What generic classes would be logical to use in this type of game?</text>
+	</card>
+
+	<!-- <card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>2</tag>
+		<text>What tool would a designer mostly need to build the game?</text>
+	</card> -->
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>How many sound files does this game use?</text>
+	</card>
+
+	<card type="display">
+		<cardCategoryId>10</cardCategoryId>
+		<tag>3</tag>
+		<text>Can sounds be influenced by the player?</text>
+	</card>
+
+</cards>
